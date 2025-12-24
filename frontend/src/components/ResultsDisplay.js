@@ -2,11 +2,11 @@ import React from 'react';
 import { PieChart, Pie, Cell, ResponsiveContainer, Legend, Tooltip } from 'recharts';
 
 const COLORS = {
-  'Healthy': '#10b981',
-  'Asthma': '#f59e0b',
-  'COPD': '#ef4444',
-  'Pneumonia': '#8b5cf6',
-  'Bronchial': '#3b82f6'
+  'Healthy': '#10b981',       // Emerald 500
+  'Asthma': '#f59e0b',        // Amber 500
+  'COPD': '#ef4444',          // Red 500
+  'Pneumonia': '#a78bfa',     // Violet 400 (lighter for dark mode)
+  'Bronchial': '#60a5fa'      // Blue 400 (lighter for dark mode)
 };
 
 const ICONS = {
